@@ -1,10 +1,6 @@
 ﻿
-var nums1 = new int[] {1,2,3,0,0,0};
-var nums2 = new int[] {2,5,6};
-var m = 3;
-var n = 3;
+var nums = new int[] { 0,0,1,1,1,2,2,3,3,4};
 
-MergeSortedArray.Merge2(nums1, m, nums2, n);
+System.Console.WriteLine(RemoveDuplicatesFromSortedArray.RemoveDuplicates(nums));
 
-nums1.ToList().ForEach(Console.WriteLine);
-
+nums.ToList().ForEach(x => Console.WriteLine(x));
